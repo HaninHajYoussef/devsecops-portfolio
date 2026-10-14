@@ -1,0 +1,35 @@
+cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="cv">
+    <h1>Hanin Haj Youssef</h1>
+    <p class="subtitle">Étudiante en Master DevOps &amp; Cloud</p>
+    <section>
+      <h2>À propos</h2>
+      <p>Étudiante en Master DevOps & Cloud, je m’intéresse à l’automatisation du déploiement d’applications et à l’infrastructure moderne. J’apprends à utiliser Linux, Git, Docker et Jenkins à travers des projets pratiques.</p>
+    </section>
+    <section>
+      <h2>Compétences</h2>
+      <ul>
+        <li>Linux</li>
+        <li>Git</li>
+        <li>Docker</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p>haninhajyoussef1@gmail.com</p>
+    </section>
+    <button id="theme-btn">Changer le thème</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+EOF
