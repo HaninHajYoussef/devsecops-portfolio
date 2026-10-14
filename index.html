@@ -3,32 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mon CV</title>
+  <title>DevSecOps Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="cv">
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+    <button id="theme-btn">Thème</button>
+  </nav>
+  <header>
     <h1>Hanin Haj Youssef</h1>
-    <p class="subtitle">Étudiante en Master DevOps &amp; Cloud</p>
-    <section>
-      <h2>À propos</h2>
-      <p>Étudiante en Master DevOps & Cloud, je m’intéresse à l’automatisation du déploiement d’applications et à l’infrastructure moderne. J’apprends à utiliser Linux, Git, Docker et Jenkins à travers des projets pratiques.</p>
+    <p class="subtitle">DevSecOps Portfolio · Master DevOps &amp; Cloud</p>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Étudiante en Master DevOps &amp; Cloud, je m'intéresse à l'automatisation du déploiement d'applications et à l'infrastructure moderne.</p>
     </section>
-    <section>
-      <h2>Compétences</h2>
-      <ul>
-        <li>Linux</li>
-        <li>Git</li>
-        <li>Docker</li>
-      </ul>
+    <section id="skills">
+      <h2>DevSecOps Skills</h2>
+      <div class="grid">
+        <div class="card">Git</div>
+        <div class="card">Docker</div>
+        <div class="card">Jenkins</div>
+        <div class="card">Kubernetes</div>
+        <div class="card">Ansible</div>
+        <div class="card">Terraform</div>
+        <div class="card">Argo CD</div>
+      </div>
     </section>
-    <section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="projects-list" class="grid"></div>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>Master DevOps &amp; Cloud : projets pratiques sur Linux, Docker, Jenkins et l'automatisation.</p>
+    </section>
+    <section id="contact">
       <h2>Contact</h2>
       <p>haninhajyoussef1@gmail.com</p>
     </section>
-    <button id="theme-btn">Changer le thème</button>
   </main>
   <script src="script.js"></script>
 </body>
 </html>
-
