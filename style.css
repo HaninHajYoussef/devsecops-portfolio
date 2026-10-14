@@ -1,4 +1,3 @@
-cat > style.css << 'EOF'
 body { font-family: system-ui, sans-serif; margin: 0; background: #f1f5f9; color: #0f172a; }
 body.dark { background: #0f172a; color: #e2e8f0; }
 .cv { max-width: 700px; margin: 2rem auto; padding: 2rem; background: rgba(255,255,255,.08); border-radius: 12px; }
@@ -6,4 +5,4 @@ h1 { margin-bottom: 0; }
 .subtitle { color: #0284c7; margin-top: .3rem; }
 h2 { border-bottom: 2px solid #0284c7; padding-bottom: .3rem; }
 button { background: #0284c7; color: white; border: 0; padding: .6rem 1rem; border-radius: 6px; cursor: pointer; }
-EOF
+
